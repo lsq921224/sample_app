@@ -28,6 +28,8 @@ group :test do
   gem 'minitest-reporters',       '1.1.9'
   gem 'guard',                    '2.13.0'
   gem 'guard-minitest',           '2.4.4'
+  gem 'capybara', '2.7.1'
+  gem 'selenium-webdriver'
 end
 
 group :production do
